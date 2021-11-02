@@ -1,3 +1,4 @@
+print("* * * This is your first program * * *")
 print("Hello! What is your name?")
 name = input()
 print("Hi " + name + "! How are you??")
