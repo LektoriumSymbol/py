@@ -1,4 +1,4 @@
-print("* * * This is your calculator * * *")
+print("* * * This is your factorial * * *")
 
 def factorial(n):
     if(n == 1): return n
