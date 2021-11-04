@@ -1,4 +1,4 @@
-print("* * * This is your fibonacci set via loop with semantic sygar * * *")
+print("* * * This is your fibonacci set via loop with semantic sugar * * *")
 
 N = int(input("> Enter number of elements in Fibonacci series, please, N : "))
 
