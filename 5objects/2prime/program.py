@@ -18,5 +18,5 @@ while(True):
     print("> Type in your number to check : ", end="")
     x = int(input())
 
-    print(Checker.is_prime(x) )
+    print("> Is a prime number!" if Checker.is_prime(x) else "> Is a complex number!")
     print()
