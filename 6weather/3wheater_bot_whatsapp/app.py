@@ -19,7 +19,7 @@ def sms_reply():
 if __name__ == "__main__":
     app.run(debug=True)
 
-#run python3 -m venv myvenv
-#run source myvenv/bin/activate
+#run python3 -m venv myvenv OR python -m venv myvenv on windows using gitbash
+#run source myvenv/bin/activate OR myvenv/Scripts/activate on windows using gitbash
 #run pip3 install flask twilio
-#run server with command: python3 app.py
+#run server with command: python3 app.py OR python app.py on windows using gitbash
