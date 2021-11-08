@@ -23,16 +23,24 @@ class Calculator:
         print("> Result is: %s" % result)
         print()
 
-    def sum(self, a, b):
+    @staticmethod
+    def sum(a, b):
+    # def sum(self, a, b):
         return a + b
 
-    def sub(self, a, b):
+    @staticmethod
+    def sub(a, b):
+    # def sub(self, a, b):
         return a - b
 
-    def mul(self, a, b):
+    @staticmethod
+    def mul(a, b):
+    # def mul(self, a, b):
         return a * b
 
-    def div(self, a , b):
+    @staticmethod
+    def div(a , b):
+    # def div(self, a , b):
         return a / b
 
 
