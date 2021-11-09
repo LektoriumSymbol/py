@@ -71,4 +71,5 @@ if __name__ == "__main__":
 #run pip3 freeze > requirements.txt
 
 #npm install -g heroku
-#heroku create weatherbot
+#heroku create weatherbot OR heroku create 
+#git push heroku master
