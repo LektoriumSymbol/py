@@ -64,3 +64,8 @@ if __name__ == "__main__":
 #run source myvenv/bin/activate OR myvenv/Scripts/activate on windows using gitbash
 #run pip3 install flask twilio
 #run server with command: python3 app.py OR python app.py on windows using gitbash
+
+#run pip3 install gunicorn
+#create Procfile with line web gunicorn app:app
+#create runtime.txt with line python-3.x.x
+#run pip3 freeze > requirements.txt
