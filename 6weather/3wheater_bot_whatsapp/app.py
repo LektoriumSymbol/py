@@ -69,3 +69,6 @@ if __name__ == "__main__":
 #create Procfile with line web gunicorn app:app
 #create runtime.txt with line python-3.x.x
 #run pip3 freeze > requirements.txt
+
+#npm install -g heroku
+#heroku create weatherbot
