@@ -7,8 +7,12 @@ import telebot
 
 bot = telebot.TeleBot("2122884968:AAHU44s4jE_YhTzKRVJ4boXixLeS9UiOfic")
 
+@bot.message_handler(commands=['start'])
+def message_handler(message):
+    bot.send_message(message.chat.id, "Приветствую! Если хотите узнать сводку, отправте название города ")
+
 @bot.message_handler(content_types=['text'])
-def send_echo(message):
+def message_handler(message):
     # bot.reply_to(message, message.text)
     # bot.send_message(message.chat.id, message.text)
 
