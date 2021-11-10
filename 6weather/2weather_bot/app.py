@@ -12,6 +12,8 @@ def send_echo(message):
     # bot.reply_to(message, message.text)
     # bot.send_message(message.chat.id, message.text)
 
+    #print(message)
+
     config_dict = get_default_config()
     config_dict['language'] = 'ru'
 
